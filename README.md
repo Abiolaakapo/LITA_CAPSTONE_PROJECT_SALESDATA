@@ -48,7 +48,10 @@ In data cleaning and preparation, the following actions were performed:
  - To find the highest sales by region.
  - To find the average sales by product.
  - To find the least selling product.
- - To find the highest sales by month
+ - To find the highest sales by month.
+
+  ### Data Analysis
+  The Data Analysis is carried out by data querying with the use of some select statements such as
 
 
   
