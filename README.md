@@ -51,7 +51,87 @@ In data cleaning and preparation, the following actions were performed:
  - To find the highest sales by month.
 
   ### Data Analysis
-  The Data Analysis is carried out by data querying with the use of some select statements such as
+  The Data Analysis is carried out by data querying with the use of some select statements such as:
+
+
+         SELECT * FROM LITA_SALES_DATA
+
+DELETE FROM [dbo].[LITA_SALES_DATA]
+WHERE REGION IS NULL
+
+.........RETRIEVE TOTAL SALES fOR ALL PRODUCT
+SELECT PRODUCT,
+SUM(Quantity * UnitPrice) AS TOTAL_SALES 
+FROM LITA_SALES_DATA
+GROUP BY PRODUCT
+
+
+........NUMBER OF SALES TRANSACTION IN ALL REGION.......
+SELECT REGION,
+COUNT(Quantity * UnitPrice)
+AS TOTAL_SALES FROM LITA_SALES_DATA
+GROUP BY REGION
+
+........HIGHEST SELLING PRODUCT.......
+SELECT TOP 1 PRODUCT,
+SUM(Quantity * UnitPrice) AS TOTAL_SALES
+FROM [dbo].[LITA_SALES_DATA]
+GROUP BY PRODUCT
+
+
+.....TOTAL REVENUE PER PRODUCTS........
+SELECT PRODUCT,
+SUM(Quantity * UnitPrice) AS 
+TOTAL_REVENUE
+FROM [dbo].[LITA_SALES_DATA]
+GROUP BY PRODUCT
+
+.........MONTHLY SALES TOTAL FOR THE CURRENT YEAR........
+SELECT MONTH(OrderDate) AS MONTH,
+SUM(Total_Sales) AS Monthly_Sales
+FROM [dbo].[LITA_SALES_DATA]
+WHERE YEAR(OrderDate)=2024
+GROUP BY MONTH(OrderDate)
+ORDER BY MONTH(OrderDate)
+
+.........MONTHLY SALES TOTAL FOR THE PREVIOUS YEAR........
+SELECT MONTH(OrderDate) AS MONTH,
+SUM(Total_Sales) AS Monthly_Sales
+FROM [dbo].[LITA_SALES_DATA]
+WHERE YEAR(OrderDate)=2023
+GROUP BY MONTH(OrderDate)
+ORDER BY MONTH(OrderDate)
+
+
+.......TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT........
+SELECT TOP 5 Customer_Id,
+SUM(Quantity * UnitPrice) AS Total_Purchase_Amount
+FROM [dbo].[LITA_SALES_DATA]
+GROUP BY Customer_Id
+ORDER BY Total_Purchase_Amount DESC
+
+
+.........PERCENTAGE OF TOTAL SALES CONTRIBUTED BY EACH REGION........
+SELECT Region,
+SUM(Total_Sales) AS Regional_Sales
+FROM [dbo].[LITA_SALES_DATA]
+GROUP BY Region
+
+
+.......PRODUCT WITH NO SALES IN THE LAST QUARTER.........
+SELECT Product FROM [dbo].[LITA_SALES_DATA]
+WHERE (OrderDate) < DATEADD(QUARTER,-1,2024)
+GROUP BY Product
+
+
+### Data Visualization
+
+
+
+
+
+
+
 
 
   
@@ -59,3 +139,6 @@ In data cleaning and preparation, the following actions were performed:
 
 
   
+
+
+          
