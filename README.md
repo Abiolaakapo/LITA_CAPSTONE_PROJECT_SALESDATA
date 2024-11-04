@@ -15,6 +15,12 @@ The primary data source used is Data Sales.CSV and this is an open source data t
   3. Data Visualization.
      
 - SQL - Structured Query Language for Querying of Data.
+
+- Power BI
+ 1. For Data Cleaning
+ 2. For Data Tranformation
+ 3. For Data Visualization
+
 - Github For portfolio building.
 
  ### Data Cleaning And Preparations
