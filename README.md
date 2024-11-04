@@ -38,6 +38,11 @@ In data cleaning and preparation, the following actions were performed:
 - Quantity: This is the number of product/s purchased.
 - Unit Price: This is a fixed amount per product.
 - Total Sales: This the total amount generated from the quantity of the products sold which is calculated as quantity by unit sold.
+
+ ### Exploratory Data Analysis
+ Exploratory Data Analysis involves deeper anwsers to the following critical questions regarding the SalesData:
+ - To retrieve the total sales for each product category.
+ - To calculate total sales by each geograhicl
  
 
 
