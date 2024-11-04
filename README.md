@@ -12,9 +12,15 @@ The primary data source used is Data Sales.CSV and this is an open source data t
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning
   2. Data Analysis
-  3.  Data Visualization.
+  3. Data Visualization.
      
 - SQL - Structured Query Language for Querying of Data.
-- Github For portfolio buuilding.
+- Github For portfolio building.
+
+ ### Data Cleaning And Preparations
+In data cleaning and preparation, the following actions were performed:
+1. Data loading
+2. Data cleaning and formatting
+3. Handling missing variables
 
   
