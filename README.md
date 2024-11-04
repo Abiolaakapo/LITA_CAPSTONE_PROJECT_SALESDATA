@@ -52,9 +52,10 @@ In data cleaning and preparation, the following actions were performed:
 
   ### Data Analysis
   The Data Analysis is carried out by data querying with the use of some select statements such as:
+  
 
-
-         SELECT * FROM LITA_SALES_DATA
+```SQL
+SELECT * FROM LITA_SALES_DATA
 
 DELETE FROM [dbo].[LITA_SALES_DATA]
 WHERE REGION IS NULL
@@ -122,7 +123,7 @@ GROUP BY Region
 SELECT Product FROM [dbo].[LITA_SALES_DATA]
 WHERE (OrderDate) < DATEADD(QUARTER,-1,2024)
 GROUP BY Product
-
+```
 
 ### Data Visualization
 
