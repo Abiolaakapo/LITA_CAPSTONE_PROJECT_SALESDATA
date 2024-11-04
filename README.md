@@ -25,9 +25,9 @@ The primary data source used is Data Sales.CSV and this is an open source data t
 
  ### Data Cleaning And Preparations
 In data cleaning and preparation, the following actions were performed:
-1. Data loading
-2. Data cleaning and formatting
-3. Handling missing variables
+ 1. Data loading
+ 2. Data cleaning and formatting
+ 3. Handling missing variables
 
 ### Column Description
 - OrderID: A unique identifier for each order placed.
@@ -42,7 +42,16 @@ In data cleaning and preparation, the following actions were performed:
  ### Exploratory Data Analysis
  Exploratory Data Analysis involves deeper anwsers to the following critical questions regarding the SalesData:
  - To retrieve the total sales for each product category.
- - To calculate total sales by each geograhicl
+ - To calculate total sales by region.
+ - To calculate the total sales made monthly.
+ - To find the top-selling product.
+ - To find the highest sales by region.
+ - To find the average sales by product.
+ - To find the least selling product.
+ - To find the highest sales by month
+
+
+  
  
 
 
