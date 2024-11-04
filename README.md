@@ -9,7 +9,7 @@ This project Analysis aims at generating insightful sales performance, top selli
 The primary data source used is Data Sales.CSV and this is an open source data that can be easily downloaded from an open online data source such as Kaggle, FRED or any other data repository site.
 
 ### Tools Used
-- Microsoft Excel for:
+- Microsoft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning
   2. Data Analysis
   3.  Data Visualization.
