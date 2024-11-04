@@ -23,8 +23,16 @@ In data cleaning and preparation, the following actions were performed:
 2. Data cleaning and formatting
 3. Handling missing variables
 
-```SQL
-SSELECT * FROM TABLE 1
-WHERE CONDITION = TRUE
+### Column Description
+- OrderID: A unique identifier for each order placed.
+- CustomerID: A unique identifier for each customer.
+- Product: This is the item offered for sale.
+- Region: A geographical location where sales is being made such as North, South, East and West.
+- OrderDate: A specific day when a sale is made.
+- Quantity: This is the number of product/s purchased.
+- Unit Price: This is a fixed amount per product.
+- Total Sales: This the total amount generated from the quantity of the products sold which is calculated as quantity by unit sold.
+ 
+
 
   
