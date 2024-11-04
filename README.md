@@ -23,4 +23,8 @@ In data cleaning and preparation, the following actions were performed:
 2. Data cleaning and formatting
 3. Handling missing variables
 
+```SQL
+SSELECT * FROM TABLE 1
+WHERE CONDITION = TRUE
+
   
