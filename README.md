@@ -129,6 +129,7 @@ GROUP BY Product
 ### Data Visualization
 
 
+[LITA CAPSTONE PROJECT (SALES DATA).xlsx](https://github.com/user-attachments/files/17627693/LITA.CAPSTONE.PROJECT.SALES.DATA.xlsx)
 
 
 
