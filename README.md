@@ -142,6 +142,7 @@ GROUP BY Product
 ![image](https://github.com/user-attachments/assets/b4cc8bfc-9e9b-4378-842b-5f11ec4b298f)
 
 
+![image](https://github.com/user-attachments/assets/07850a61-9b1d-4096-ac65-f7d3bcc1b020)
 
 
 
