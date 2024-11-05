@@ -135,6 +135,9 @@ GROUP BY Product
 
 
 
+![image](https://github.com/user-attachments/assets/85873ebd-528c-45a5-a0d1-d30aabf8bc4b)
+
+
 
 
 
