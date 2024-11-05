@@ -1,8 +1,5 @@
 
 
-
-
-
 ### LITA_CAPSTONE_PROJECT_SALESDATA
 
 ### Project  Title: LITA Capstone Sales Analysis
@@ -132,6 +129,21 @@ GROUP BY Product
 
 ### Data Visualization
 
+
+
+
+
+
+
+
+
+
+
+### Results
+From the Analysis carried out, it was deduced that our customers love to shop for quality and affordability which is the goal of the shopping store. The total revenue generated was 2,101,090 approximately 2Milllion. From the Grand Total , the Southern region made their way to the top as it has a total of 927,820 which is exactly 44.16% of the total revenue. Second on the chart is the Eastern region with 23.13%, followed by the Northern region with 18.42% while the Western region, with not so good performance but added their quota of 14.29% to the total revenue generated. The dataset also shows an insight on the month with the highest sales amounting to 546,300 which is February while September recorded the lowest sales amounting to 34,720, but still very crucial as it added to the total revenue for the year. The most lucrative product of the year is Shoes with an outstanding sales of 613,380 while the Average Sales by product is 211.78 which in all honesty is a good sales number for the year. 
+
+    
+    
 
 
 
